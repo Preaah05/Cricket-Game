@@ -34,15 +34,15 @@
     <img src="Images/stump.png" alt="Stump Image" class="choice-image">
     </button>
 
-    <button onclick="
-        localStorage.clear()
-        resetScore();
-    ">Reset</button>
 
     <h3 id="user-move"></h3>
     <h3 id="computer-move"></h3>
     <h3 id="result"></h3>
     <h3 id="score"></h3>
+    <button onclick="
+        localStorage.clear()
+        resetScore();
+    ">Reset</button>
 
     <script>
         let scoreStr = localStorage.getItem('score');
