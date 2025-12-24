@@ -5,6 +5,17 @@ body{
 }
 
 .choice-image{
-    height: 70px;
-    width: 50px;
+    height: 75px;
+}
+.choice-button{
+    height:100px;
+    width: 100px;
+    border:none;
+    margin:10px;
+    background-color: rgb(164, 212, 130);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.reset-button{
+    cursor: pointer;
 }

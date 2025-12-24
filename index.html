@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Bat Ball Stump Game</h1>
-    <button onclick="
+    <button class="choice-button" onclick="
     let computerChoice = generateComputerChoice();
     let resultMsg = getResult('Bat', computerChoice);
     showResult('Bat', computerChoice, resultMsg);
@@ -17,7 +17,7 @@
     </button>
 
 
-    <button onclick="
+    <button class="choice-button" onclick="
     computerChoice = generateComputerChoice();
     resultMsg = getResult('Ball', computerChoice);
     showResult('Ball', computerChoice, resultMsg);
@@ -26,7 +26,7 @@
     </button>
 
 
-    <button onclick="
+    <button class="choice-button" onclick="
     computerChoice = generateComputerChoice();
     resultMsg = getResult('Stump', computerChoice);
     showResult('Stump', computerChoice, resultMsg);
@@ -39,7 +39,7 @@
     <h3 id="computer-move"></h3>
     <h3 id="result"></h3>
     <h3 id="score"></h3>
-    <button onclick="
+    <button class="reset-button" onclick="
         localStorage.clear()
         resetScore();
     ">Reset</button>
