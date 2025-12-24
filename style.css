@@ -1,0 +1,10 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+.choice-image{
+    height: 70px;
+    width: 50px;
+}
